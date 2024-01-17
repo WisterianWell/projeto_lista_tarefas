@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Salsa', cursive;
+    font-weight: normal;
+}
+
+input,
+button,
+p {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+
+header {
+    padding: 18px;
+    margin: 20px 0;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    max-width: 540px;
+    width: 100%;
+}
+
+form {
+    background-color: #6d6d6d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    width: 360px;
+    height: 30px;
+    border-radius: 12px;
+    padding-left: 14px;
+    text-align: left;
+    border: none;
+    font-size: 18px;
+}
+
+form button {
+    background-color: #00a06b;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00d38d;
+}
+
+ul li {
+    background-color: #6d6d6d;
+    padding: 8px;
+    padding-inline-start: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn-excluir {
+    margin-right: 16px;
+    background-color: darkred;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#btn-excluir:hover {
+    background-color: red;
+}
+
+.tarefa-completa {
+    text-decoration: line-through;
+}
